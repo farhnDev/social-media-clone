@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profile-picture {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflowing content */
+    border-radius: 50%; /* Make the container circular */
+  }
+  
+  .profile-picture img {
+    width: 100%; /* Stretch image to fill container */
+    height: 100%; /* Stretch image to fill container */
+    object-fit: cover; /* Crop image to fit container while maintaining aspect ratio */
+  }
+  .tutup {
+    display: none;
+  }
